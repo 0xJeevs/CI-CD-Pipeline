@@ -12,14 +12,11 @@ spec:
       labels:
         app: flask-app
     spec:
+      imagePullSecrets:
+      - name: ecr-secret
+
       containers:
       - name: flask-app
-<<<<<<< HEAD
-        image:996680283278.dkr.ecr.us-east-1.amazonaws.com/flask-app:63ffae30b30dcf985be2a15341f9d0040d3aa727
-||||||| parent of 8482122 (Add ECR pull secret)
-        image:996680283278.dkr.ecr.us-east-1.amazonaws.com/flask-app:72807ee73a214d34de97caad39ecf0c500ca01f4
-=======
-        image: 996680283278.dkr.ecr.us-east-1.amazonaws.com/flask-app:72807ee73a214d34de97caad39ecf0c500ca01f4
->>>>>>> 8482122 (Add ECR pull secret)
+        image: 996680283278.dkr.ecr.us-east-1.amazonaws.com/flask-app:63ffae30b30dcf985be2a15341f9d0040d3aa727
         ports:
         - containerPort: 5000
