@@ -9,7 +9,7 @@ spec:
 
   source:
     repoURL: https://github.com/0xJeevs/CI-CD-Pipeline.git
-    targetRevision: HEAD
+    targetRevision: main
     path: manifests
 
   destination:
