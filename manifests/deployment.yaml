@@ -17,6 +17,6 @@ spec:
 
       containers:
       - name: flask-app
-        image:996680283278.dkr.ecr.us-east-1.amazonaws.com/flask-app:8da43b6dcd370908183be2f3df64ab82f399fdea
+        image:996680283278.dkr.ecr.us-east-1.amazonaws.com/flask-app:8ebf9060b275810edb19e7035395c0aded8302f5
         ports:
         - containerPort: 5000
